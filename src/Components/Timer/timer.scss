@@ -1,0 +1,41 @@
+.timer-container {
+    margin: 2rem auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    .session-container{
+        min-width: 250px;
+        padding: 1.5rem 2.5rem;
+        border: 5px solid black;
+        border-radius: 20px;
+        margin-bottom: 2rem;
+        text-align: center;
+
+        h2 {
+            margin: auto;
+            font-size: 2.5rem;
+        }
+    
+        #time-left {
+            margin: auto;
+            font-size: 3.5rem;
+        }
+    }
+
+    .btn-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 3rem);
+        column-gap: 1.5rem;
+
+        .btn {
+            border: none;
+            background: transparent;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+    }
+}

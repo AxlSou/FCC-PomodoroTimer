@@ -1,0 +1,16 @@
+.App {
+    padding: 8rem 15rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        h1 {
+            font-size: 3.5rem;
+        }
+    }
+}
